@@ -1,0 +1,170 @@
+body {
+    width:360px 720px 1080px 1440px 1920px 2160px;
+    background-color: #f8e0b3;
+    height: 640px 1280px 1920px 2560px 3840px;
+  }
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+header img{
+    width: 100px;
+    box-shadow: 0 0 10px 1px;
+}
+header button{
+    background-color:antiquewhite;
+    padding: 10px;
+    border-radius: 5PX;
+    border: none;
+    box-shadow: 0 0 5PX 1PX;
+}
+header nav{
+    margin-right: 100px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    padding: 30px 20px;
+    padding: 10px;
+}
+
+header nav ul li button{
+    padding: 5px;
+}
+marquee{
+    background-color: black;
+    color: red;
+    padding: 20px;
+    width: 200px;
+    margin-left: 80%;
+    border-radius: 10px;
+    font-family: 'Angkor';font-size: 25px;
+}
+.section{
+    color: red;
+    font-family: 'Annie Use Your Telescope';font-size: 40px;
+    text-align: center;
+    background-image: url(Fire-.jpg);
+    padding: 100px ;
+    border-radius: 5%;
+}
+.material-icons{
+    color: red;
+    padding: 20px 0;
+    height: 20%;
+    font-weight: 100px;
+}
+section nav ul{ 
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    bottom: 10px;
+    border-radius: 10px;
+
+}
+section nav ul button{
+    background-color: red;
+    border: 1px;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px 1px;
+    
+}
+
+section nav ul button:hover{
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+    
+  }
+  .section2{
+    text-align: center;
+    padding: 10px;
+    background-image: url();
+  }
+.summary{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    padding-top: 20px;
+    border: 2px;
+
+  }
+.summary div{
+    width: 20vw;
+    height: 20vw;
+    background-color: red;
+    color: black;
+    box-shadow: 0 0 10px 1 px;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+    color: black;
+}
+.summary div button{
+    background-color: white;
+    color: black;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px;
+}
+.summary div button:hover{
+    background-color: blue;
+    color: white;
+}
+.summary2{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 100px;
+}
+.summary2 div p a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color:white ;
+    padding: 60px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+div-right{
+    margin-left: 70px;   
+}
+.www{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid red;
+}
